@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://charts.kasten.io/
     chart: k10
-    targetRevision: latest
+    targetRevision: 7.5.1
   destination:
     server: https://kubernetes.default.svc
     namespace: kasten-io
