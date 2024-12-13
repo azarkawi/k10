@@ -9,12 +9,6 @@ spec:
     repoURL: https://charts.kasten.io/
     chart: k10
     targetRevision: 7.5.1
-    helm:
-      values: |
-        gateway:
-          service:
-            type: NodePort
-            nodePort: 30098
   destination:
     server: https://kubernetes.default.svc
     namespace: kasten-io
